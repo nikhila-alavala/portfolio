@@ -34,7 +34,7 @@ def project(data):
     for job_title, (job_description, images) in data.items():
         expander = st.expander(f"# **{job_title}**")
         for image in images:
-            expander.image(image, use_column_width=True)
+            expander.image(image, use_container_width=True)
         for bullet in job_description:
             expander.markdown(bullet)
     st.write("---")
