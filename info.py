@@ -114,7 +114,7 @@ projects_data = {
                 - Tips on reducing screen time emissions
             """
         ],
-        ["Images\pages.jpg","Images\screens.png"]
+        ["Images/pages.jpg","Images/screens.png"]
     ),
     # "Graduate Research on Sustainable Coding": (
     #     [
@@ -136,7 +136,7 @@ projects_data = {
                 - Visualized results on an interactive map
             """
         ],
-        ["Images\Carbon_calc.png"]
+        ["Images/Carbon_calc.png"]
     ),
 }
 
