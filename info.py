@@ -48,12 +48,12 @@ experience_data = {
         "- Automated price setting for 1,421 online products with an Alteryx workflow, saving 326 hours of manual work",
         "- Developed web scraping code to find pricing for 3 competitors using BeautifulSoup, improving input data accuracy by 20%",
          ],
-        "images/veritiv.jpg"
+        "Images/veritiv.jpg"
     ),
     "E-commerce Operations Intern – Walmart (Sam’s Club)": (
         ["- Identified and championed initiatives focused on new premium memberships, driving $50M in incremental revenue",
          "- Designed and presented a sustainability initiative to replace electronic sliding doors with high-speed doors, reducing cooling leakages and resulting in annual savings of $3.1M and a 22M lb reduction in carbon emissions, which was accepted and implemented by the VP of Real Estate"],
-        "images/walmart.jpg"
+        "Images/walmart.jpg"
     ),
     "Revenue Management Commercial Cargo Co-Op – Delta Air Lines": (
         ["- Published Tableau dashboard on customer no-show trends, enabling $10M in overbooking revenue in Q1 of 2022",
@@ -62,7 +62,7 @@ experience_data = {
         "- Analyzed performance of dynamic cargo pricing initiatives by creating a new win/loss metric on Tableau"
         "- Presented projects and key findings to senior leadership on six occasions throughout the co-op"
         ],
-        "images/delta.png"
+        "Images/delta.png"
     ),
 }
 
