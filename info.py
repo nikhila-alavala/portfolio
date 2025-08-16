@@ -116,14 +116,14 @@ projects_data = {
         ],
         ["Images/pages.jpg","Images/screens.png"]
     ),
-    # "Graduate Research on Sustainable Coding": (
-    #     [
-    #         "- Integrated sustainable coding practices into 3 core computer science courses",
-    #         "- First author of an ACM-published peer-reviewed paper accepted at ITiCSE 2024",
-    #         "- Applied PCA, LSA, LDA, and mutual information to support curriculum redesign"
-    #     ],
-    #     ["images/tips.jpg"]
-    # ), 
+    "Graduate Research on Sustainable Coding": (
+        [
+            "- Integrated sustainable coding practices into 3 core computer science courses",
+            "- First author of an ACM-published peer-reviewed paper accepted at ITiCSE 2024",
+            "- Applied PCA, LSA, LDA, and mutual information to support curriculum redesign"
+        ],
+        ["images/tips.jpg"]
+    ), 
     "Carbon Emissions Travel Calculator": (
         [ """
             - **Overview**
