@@ -11,9 +11,9 @@ about_me = (
 # CONTACT & SOCIALS
 linkedin_image_url = "https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg"
 github_image_url = "https://cdn-icons-png.flaticon.com/256/25/25231.png"
-email_image_url = "https://toppng.com/uploads/preview/email-icon-vector-circle-11549825158ieiklzfl8g.png"
+email_image_url = "https://static.vecteezy.com/system/resources/thumbnails/014/440/980/small_2x/email-message-icon-design-in-blue-circle-png.png"
 my_linkedin_url = "https://www.linkedin.com/in/nikhila-alavala/"
-my_github_url = "https://github.com/your-github-username"  # Update with your actual GitHub
+my_github_url = "https://github.com/nikhila-alavala"  
 my_email_address = "nikhiATL@gmail.com"
 
 # EDUCATION
@@ -114,15 +114,15 @@ projects_data = {
                 - Tips on reducing screen time emissions
             """
         ],
-        ["Images/pages.jpg","Images/screens.png"]
+        ["Images/pages.png","Images/screens.png"]
     ),
     "Graduate Research on Sustainable Coding": (
         [
             "- Integrated sustainable coding practices into 3 core computer science courses",
             "- First author of an ACM-published peer-reviewed paper accepted at ITiCSE 2024",
-            "- Applied PCA, LSA, LDA, and mutual information to support curriculum redesign"
+            "- Applied PCA, LSA, LDA, and mutual information on free response survey data and survey questions to support curriculum redesign"
         ],
-        ["images/tips.jpg"]
+        []
     ), 
     "Carbon Emissions Travel Calculator": (
         [ """
