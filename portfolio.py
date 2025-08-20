@@ -70,15 +70,17 @@ st.header("Published Paper")
 #     <iframe src="data:application/pdf;base64,{base64_pdf}" 
 #     width="100%" height="800" type="application/pdf"></iframe>
 # """
-with st.expander("Beyond Buzzwords: Making Sustainability a Pillar of the Computing Curriculum"):
-    # st.markdown(pdf_display, unsafe_allow_html=True)
+# with st.expander("Beyond Buzzwords: Making Sustainability a Pillar of the Computing Curriculum"):
+#     # st.markdown(pdf_display, unsafe_allow_html=True)
 
-    pdf_url = "https://dl.acm.org/doi/pdf/10.1145/3724363.3729034"
+#     pdf_url = "https://dl.acm.org/doi/pdf/10.1145/3724363.3729034"
     
-    st.components.v1.html(
-        f'<iframe src="{pdf_url}" width="100%" height="800"></iframe>',
-        height=800
-    )
+#     st.components.v1.html(
+#         f'<iframe src="{pdf_url}" width="100%" height="800"></iframe>',
+#         height=800
+#     )
+with st.expander("Beyond Buzzwords"):
+    st.download_button("Download PDF", data=open("my_paper.pdf", "rb"), file_name="my_paper.pdf")
 
 st.header("Projects")
 project(info.projects_data)
