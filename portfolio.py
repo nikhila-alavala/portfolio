@@ -1,5 +1,5 @@
 import streamlit as st
-import portfolio.info as info
+import info
 import base64
 
 st.set_page_config(layout="wide")
