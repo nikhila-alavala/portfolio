@@ -61,15 +61,6 @@ def experience(data):
 
 st.header("Published Paper")
 
-# pdf_url = "https://dl.acm.org/doi/pdf/10.1145/3724363.3729034"
-
-# st.components.v1.html(
-#     f"""
-#     <iframe src="{pdf_url}" width="100%" height="800"></iframe>
-#     """,
-#     height=800,
-# )
-
 pdf_file = "Paper.pdf"
 
 # Read PDF and encode to base64
