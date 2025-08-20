@@ -9,7 +9,7 @@ def about_me():
     st.markdown("<h1 style='text-align: center;'>About Me</h1>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1, 1, 1]) 
     with col2:
-        st.image(info.profile_picture, use_column_width=True)
+        st.image(info.profile_picture)
     st.write(info.about_me)
     st.write('---')
 
@@ -61,19 +61,24 @@ def experience(data):
 
 st.header("Published Paper")
 
-pdf_file = "Paper.pdf"
+# pdf_file = "Paper.pdf"
 
-# Read PDF and encode to base64
-with open(pdf_file, "rb") as f:
-    base64_pdf = base64.b64encode(f.read()).decode("utf-8")
+# with open(pdf_file, "rb") as f:
+#     base64_pdf = base64.b64encode(f.read()).decode("utf-8")
 
-# Embed PDF in an iframe
-pdf_display = f"""
-    <iframe src="data:application/pdf;base64,{base64_pdf}" 
-    width="100%" height="800" type="application/pdf"></iframe>
-"""
+# pdf_display = f"""
+#     <iframe src="data:application/pdf;base64,{base64_pdf}" 
+#     width="100%" height="800" type="application/pdf"></iframe>
+# """
 with st.expander("Beyond Buzzwords: Making Sustainability a Pillar of the Computing Curriculum"):
-    st.markdown(pdf_display, unsafe_allow_html=True)
+    # st.markdown(pdf_display, unsafe_allow_html=True)
+
+    pdf_url = "https://dl.acm.org/doi/pdf/10.1145/3724363.3729034"
+    
+    st.components.v1.html(
+        f'<iframe src="{pdf_url}" width="100%" height="800"></iframe>',
+        height=800
+    )
 
 st.header("Projects")
 project(info.projects_data)
