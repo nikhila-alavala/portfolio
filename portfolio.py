@@ -80,7 +80,7 @@ st.header("Published Paper")
 #         height=800
 #     )
 with st.expander("Beyond Buzzwords"):
-    st.download_button("Download PDF", data=open("my_paper.pdf", "rb"), file_name="my_paper.pdf")
+    st.download_button("Download PDF", data=open("Paper.pdf", "rb"), file_name="my_paper.pdf")
 
 st.header("Projects")
 project(info.projects_data)
