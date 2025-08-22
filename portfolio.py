@@ -62,14 +62,7 @@ def experience(data):
 st.header("Published Paper")
 
 with st.expander("Beyond Buzzwords: Making Sustainability a Pillar of the Computing Curriculum"):
-    # st.markdown(pdf_display, unsafe_allow_html=True)
-
-    pdf_url = "https://dl.acm.org/doi/10.1145/3724363.3729034"
-    
-    st.components.v1.html(
-        f'<iframe src="{pdf_url}" width="100%" height="800"></iframe>',
-        height=800
-    )
+    st.pdf("Paper.pdf")
 
 # with st.expander("Beyond Buzzwords"):
 #     st.download_button("Download PDF", data=open("Paper.pdf", "rb"), file_name="Beyond Buzzwords: Making Sustainability a Pillar of the Computing Curriculum.pdf")
