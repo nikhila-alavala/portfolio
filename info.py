@@ -40,7 +40,12 @@ course_data = {
 # EXPERIENCE
 experience_data = {
     "Veritiv": (
-        ["**Pricing Analyst Intern**",
+        ["**Analyst**",
+         "- Rescued a margin improvement initiative from cancellation, targeting 800 sales reps and received $36M in accepted price increases within my first week by building Python tools, cutting file process time by 73% and saving 200+ manual hours",
+         "- Initiated process improvement of sellers accessing and responding to price recommendations by independently developing a full stack web application with a custom secure login, front end deployed via Streamlit, and a centralized database in Azure Blob Storage",
+         "- Created ETL workflows in Alteryx and Power BI, deploying a dashboard that uncovered $840K+ profit leakage with targeted weekly alerts to stakeholders",
+
+        "**Pricing Analyst Intern**",
         "- Identified $4M of profit opportunity by implementing a minimum order quantity, earning C-Suite recognition",
         "- Collaborated with 12 regional sales managers to identify strategic margin increases, generating $200K in profit",
         "- Automated price setting for 1,421 online products with an Alteryx workflow, saving 326 hours of manual work",
@@ -48,13 +53,15 @@ experience_data = {
          ],
         "Images/veritiv.jpg"
     ),
-    "E-commerce Operations Intern – Walmart (Sam’s Club)": (
-        ["- Identified and championed initiatives focused on new premium memberships, driving $50M in incremental revenue",
+    "Walmart": (
+        ["**Sam’s Club E-commerce Operations Intern**",
+         "- Identified and championed initiatives focused on new premium memberships, driving $50M in incremental revenue",
          "- Designed and presented a sustainability initiative to replace electronic sliding doors with high-speed doors, reducing cooling leakages and resulting in annual savings of $3.1M and a 22M lb reduction in carbon emissions, which was accepted and implemented by the VP of Real Estate"],
         "Images/walmart.jpg"
     ),
-    "Revenue Management Commercial Cargo Co-Op – Delta Air Lines": (
-        ["- Published Tableau dashboard on customer no-show trends, enabling $10M in overbooking revenue in Q1 of 2022",
+    "Delta Air Lines": (
+        ["**Revenue Management Commercial Cargo Co-Op**",
+        "- Published Tableau dashboard on customer no-show trends, enabling $10M in overbooking revenue in Q1 of 2022",
         "- Produced the first ever visualization of demand vs. inventory over the flight booking window using matplotlib and pandasql, enabling strategic inventory management initiatives",
         "- Built 7 Tableau Dashboards used daily by pricing and inventory team, enabling cross-functional team collaboration",
         "- Analyzed performance of dynamic cargo pricing initiatives by creating a new win/loss metric on Tableau"
