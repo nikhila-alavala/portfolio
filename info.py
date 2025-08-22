@@ -1,5 +1,3 @@
-#This File will contain the information to be displayed in your portfolio
-
 # PROFILE
 profile_picture = "Images/profile.jpg"
 about_me = (
@@ -41,8 +39,8 @@ course_data = {
 
 # EXPERIENCE
 experience_data = {
-    "Pricing Analyst – Veritiv": (
-        ["- Built automation replacing macros with a python solution, saving a $11M campaign from 4-day delay in my first week",
+    "Veritiv": (
+        ["**Pricing Analyst Intern**",
         "- Identified $4M of profit opportunity by implementing a minimum order quantity, earning C-Suite recognition",
         "- Collaborated with 12 regional sales managers to identify strategic margin increases, generating $200K in profit",
         "- Automated price setting for 1,421 online products with an Alteryx workflow, saving 326 hours of manual work",
@@ -101,9 +99,7 @@ projects_data = {
     "Screen Time Carbon Emissions Tracker": (
         [ """
             - **Overview**
-                - Social media platforms rely on energy-intensive AI algorithms to deliver personalized experiences.
-                Users are largely unaware of the environmental impact of their social media usage. 
-                GreenScreen is an app that tracks a user's social media usage and reports on the emissions produced from their screen time.
+                - Social media platforms rely on energy-intensive AI algorithms to deliver personalized experiences. Users are largely unaware of the environmental impact of their social media usage. Our group created GreenScreen, an app that tracks a user's social media usage and reports on the emissions produced from their screen time.
 
             - **Features**    
                 - Pie Chart breakdown of time spent on apps on a daily basis
@@ -120,7 +116,7 @@ projects_data = {
         [
             "- Integrated sustainable coding practices into 3 core computer science courses",
             "- First author of an ACM-published peer-reviewed paper accepted at ITiCSE 2024",
-            "- Applied PCA, LSA, LDA, and mutual information on free response survey data and survey questions to support curriculum redesign"
+            "- Applied PCA, LSA, LDA, and mutual information on free response survey data and survey questions to understand the impact of curriculum redesign and assess the structure of the survey"
         ],
         []
     ), 

@@ -1,6 +1,8 @@
 import streamlit as st
 import info
 import base64
+import streamlit as st
+from streamlit_pdf_viewer import pdf_viewer
 
 st.set_page_config(layout="wide")
 
@@ -62,7 +64,12 @@ def experience(data):
 st.header("Published Paper")
 
 with st.expander("Beyond Buzzwords: Making Sustainability a Pillar of the Computing Curriculum"):
-    st.pdf("Paper.pdf")
+    pdf_viewer(
+        "Paper.pdf",
+        width="90%",            
+        height=800,
+        viewer_align="center",   
+    )
 
 # with st.expander("Beyond Buzzwords"):
 #     st.download_button("Download PDF", data=open("Paper.pdf", "rb"), file_name="Beyond Buzzwords: Making Sustainability a Pillar of the Computing Curriculum.pdf")
